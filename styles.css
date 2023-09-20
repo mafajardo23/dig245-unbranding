@@ -74,3 +74,13 @@ body {
   left: 150px;
 }
 
+.forgot {
+  position: absolute;
+  top: 65px; 
+  left: 125px;
+  font-family: "arial";
+  color: #3975EA; 
+  font-size: 15px;
+ 
+}
+
