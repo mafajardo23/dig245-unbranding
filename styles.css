@@ -2,24 +2,75 @@ body {
   background-color: #F0F2F5;
 }
 
-.login {
+.loginbox {
   position: absolute;
   top: 90px; 
   left: 830px;
-  width: 347px;
-  height: 342px;
+  width: 390px;
+  height: 348px;
   background-color: white; 
   border-radius: 7px;
 }
 
 .username {
   position: absolute;
-  top: 120px; 
-  left: 854px;
-  width: 300px;
+  top: 110px; 
+  left: 842px;
+  width: 364px;
   height: 48px;
-  border: 1px solid grey; 
+  border: 0.5px solid grey; 
   background-color: transparent; 
   background-color: white; 
   border-radius: 7px;
 }
+
+.username_text {
+  font-family: "arial";
+  font-size: 18px;
+  opacity: .3;
+  position: absolute;
+  top: 125px; 
+  left: 865px;
+}
+
+.password {
+  position: absolute;
+  top: 174px; 
+  left: 842px;
+  width: 364px;
+  height: 48px;
+  border: 0.5px solid grey; 
+  background-color: transparent; 
+  border-radius: 7px;
+}
+
+.password_text {
+  font-family: "arial";
+  font-size: 18px;
+  opacity: .3;
+  position: absolute;
+  top: 189px; 
+  left: 865px;
+}
+
+.bluebutton {
+  position: absolute;
+  top: 240px; 
+  left: 842px;
+  width: 364px;
+  height: 48px;
+  border: 0.5px solid grey; 
+  background-color: #3975EA; 
+  border-radius: 7px;
+}
+
+.logintext{
+  position: absolute;
+  font-family: "arial";
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  top: 13px;
+  left: 150px;
+}
+
