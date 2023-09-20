@@ -81,6 +81,8 @@ body {
   font-family: "arial";
   color: #3975EA; 
   font-size: 15px;
- 
 }
 
+.bluebutton:hover {
+  color:green;
+}
