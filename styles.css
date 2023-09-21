@@ -2,6 +2,12 @@ body {
   background-color: #F0F2F5;
 }
 
+hr {
+  margin-top: 290px;
+  width: 30%;
+  border: 1px solid lightgray;
+ }
+
 .loginbox {
   position: absolute;
   top: 90px; 
@@ -98,9 +104,31 @@ body {
 
 .slogan {
   position: absolute;
-  top: 350;
-  width: 100;
-  left: 230px;
+  top: 250px;
+  width:400px;
+  left: 260px;
   font-family: "Arial";
-  font-size: 30px;
+  font-size: 26px;
+}
+
+
+.greenbutton {
+  position: absolute;
+  top: 350px; 
+  left: 842px;
+  width: 364px;
+  height: 48px;
+  border: 0.5px solid grey; 
+  background-color: #65B543; 
+  border-radius: 7px;
+}
+
+.greentext{
+  position: absolute;
+  font-family: "arial";
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  top: 363px;
+  left: 934px;
 }
