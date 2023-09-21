@@ -60,8 +60,21 @@ body {
   width: 364px;
   height: 48px;
   border: 0.5px solid grey; 
-  background-color: #3975EA; 
+  background-color: #a5b3ce; 
   border-radius: 7px;
+}
+
+.bluebutton:hover::after {
+  position: absolute;
+  background-color: hsl(220, 81%, 57%); 
+  content: 'Share all your personal information';
+  font-family: "arial";
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  top: 8px;
+  left: 9px;
 }
 
 .logintext{
@@ -70,19 +83,16 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: white;
-  top: 13px;
-  left: 150px;
+  top: 254px;
+  left: 993px;
 }
 
 .forgot {
   position: absolute;
-  top: 65px; 
-  left: 125px;
+  top: 305px; 
+  left: 960px;
   font-family: "arial";
   color: #3975EA; 
   font-size: 15px;
 }
 
-.bluebutton:hover {
-  color:green;
-}
